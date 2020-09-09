@@ -1,0 +1,38 @@
+{
+  "name": "strapi-provider-upload-s3-plus",
+  "version": "0.1.0",
+  "description": "Strapi upload provider using asw-s3 allowing the use of ACL and folders onto S3 providers that are aws-s3 compatible",
+  "author": {
+    "name": "Timbo Slice Creative",
+    "url": "https://github.com/timboslicecreative"
+  },
+  "license": "MIT",
+  "strapi": {
+    "name": "AWS S3 Plus Upload provider",
+    "icon": "upload",
+    "description": "Extended s3"
+  },
+  "keywords": [
+    "strapi",
+    "provider",
+    "aws",
+    "ACL",
+    "folders",
+    "s3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timboslicecreative/strapi-provider-upload-s3-plus.git"
+  },
+  "homepage": "https://github.com/timboslicecreative/strapi-provider-upload-s3-plus",
+  "bugs": {
+    "url": "https://github.com/timboslicecreative/strapi-provider-upload-s3-plus/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "aws-sdk": "^2.715.0"
+  }
+}
