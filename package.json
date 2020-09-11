@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-s3-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Strapi upload provider using asw-s3 allowing the use of ACL and folders onto S3 providers that are aws-s3 compatible",
   "author": {
     "name": "Timbo Slice Creative",
