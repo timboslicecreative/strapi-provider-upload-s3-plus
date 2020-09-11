@@ -8,9 +8,9 @@
   },
   "license": "MIT",
   "strapi": {
-    "name": "AWS S3 Plus Upload provider",
+    "name": "S3 Plus",
     "icon": "upload",
-    "description": "Extended s3"
+    "description": "Extended AWS compatible S3 upload provider"
   },
   "keywords": [
     "strapi",
