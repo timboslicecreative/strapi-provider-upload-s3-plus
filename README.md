@@ -25,7 +25,7 @@ module.exports = ({env}) => ({
     upload: {
         provider: "s3-plus"
     }
-})
+});
 ```
 
 ## Configuration
@@ -45,7 +45,7 @@ module.exports = ({env}) => ({
             // AWS-SDK S3 provider options
         }
     }
-})
+});
 ```
 e.g.
 ```javascript
@@ -63,7 +63,7 @@ module.exports = ({env}) => ({
             }
         }
     }
-})
+});
 ```
 
 It's recommended to use environment variables from the host for sensitive configuration details and
@@ -85,7 +85,7 @@ module.exports = ({env}) => ({
             }
         }
     }
-})
+});
 ```
 
 
@@ -98,7 +98,7 @@ directly.
 
 Example Digital Ocean Spaces configuration:
 
-`config/plugin.js`:
+`config/plugins.js`:
 ```javascript
 module.exports = ({env}) => ({
     upload: {
@@ -114,7 +114,7 @@ module.exports = ({env}) => ({
             }
         }
     }
-})
+});
 ```
 `Host environment variables`:
 ```dotenv
@@ -129,7 +129,7 @@ AWS_FOLDER=myfolder/uploads
 
 Example using [localstack](https://github.com/localstack/localstack) aws simulated services.
 
-`config/plugin.js`:
+`config/plugins.js`:
 ```javascript
 module.exports = ({env}) => ({
     upload: {
@@ -147,5 +147,5 @@ module.exports = ({env}) => ({
             s3ForcePathStyle: true, //needed for localstack s3 to work correctly
         }
     }
-})
+});
 ```
